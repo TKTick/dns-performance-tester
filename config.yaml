@@ -1,0 +1,30 @@
+# 测试轮数，必须大于等于1
+test_rounds: 5
+# 测试次数
+test_count: 50
+# 间隔（秒）
+query_interval: 500ms
+# 并发数量
+concurrency: 4
+# 是否保存log日志
+log_to_file: false
+# 是否保存csv
+save_csv: true
+# 查询域名
+domains:
+  - www.baidu.com
+  # - www.bilibili.com
+  # - www.taobao.com
+  # - dns.alidns.com
+
+# DNS服务器
+dns_servers:
+  - 223.5.5.5
+  # - tls://dns.alidns.com
+  # - tls://223.5.5.5
+  # - https://dns.alidns.com/dns-query
+  # - https://223.5.5.5/dns-query
+  # - h3://dns.alidns.com/dns-query
+  # - h3://223.5.5.5/dns-query
+  # - quic://dns.alidns.com
+  # - quic://223.5.5.5
